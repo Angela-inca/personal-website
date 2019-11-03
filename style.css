@@ -45,12 +45,12 @@ body{
     border-radius:30px;
 
 }
-.scoll-bar {
-    animation: mover 0.5s infinite alternate;
-}
 @keyframes mover{
-    0%{transform:translateY(0px);}
-    100%{transform:translateY(10px);}
+    0%   { transform:translateY(0px);}
+    100% { transform:translateY(10px);}
+}
+.scroll-bar {
+    animation: mover 1s infinite alternate;
 }
 /*------------About---------*/
 #introduction{
@@ -59,6 +59,9 @@ body{
 .about{
     padding-top:70px;
     padding-bottom:60px;
+}
+#selfintro{
+    font-size:18px;
 }
 #educationBackground{
     margin-bottom:20px;
